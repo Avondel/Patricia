@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> Browser Detector</title>
+<script type="text/javascript">
+
+var browsername = navigator.appName;
+alert(browsername);
+
+if (browsername.indexOf("Netscape") != -1) {
+	alert("Current");
+	}
+else if (browsername.indexOf("Microsoft") != -1) {
+	alert("IE");
+}
+else{
+	alert("Invalid Browser");
+}
+</script>
+</head>
+</html>
